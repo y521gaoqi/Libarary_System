@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Main Page</title>
+</head>
+<body>
+	<form action="search.php" method="get">
+		Search for the book: <input type="text" name="book_search">
+		<input type="submit" name="Search" value="Search">
+	</form>
+	<br>
+	<button onclick="{location.href='borrower_management.php'}">Sign Up New Account</button><br>
+	<button onclick="{location.href='checkIn_search.html'}">Check In</button>
+	<button onclick="{location.href='fines_list.php'}">Pay Fines Now</button>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Main Page</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#">LIBRARY</a>
+	</div>
+	<div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="borrower_management.php">Sign UP</a></li>
+			<li><a href="checkIn_search.html">Check In</a></li>
+			<li><a href="fines_list.php">Pay Fines Now</a></li>
+		</ul>
+	</div>
+	</div>
+</nav>
+	<form action="search.php" method="get">
+		Search for the book: <input type="text" name="book_search">
+		<input type="submit" name="Search" value="Search">
+	</form>
+</body>
+</html>
